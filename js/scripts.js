@@ -1,0 +1,5 @@
+(function($){
+
+    // Enter code
+
+})(jQuery);

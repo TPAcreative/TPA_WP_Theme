@@ -1,0 +1,86 @@
+/*
+Theme Name: REPLACE_THEME_NAME
+Theme URI: REPLACE_THEME_URI
+Description: A bespoke theme for REPLACE_WITH_CLIENT
+Version: 1.0
+Author: TPA
+Author URI: http://www.tpacreative.com
+*/
+
+
+/*---------------------
+    [ Imports ]
+----------------------*/
+@import "css/reset.css";
+/*@import "css/buttons.css";*/
+
+
+/*---------------------
+    [ Defaults ]
+----------------------*/
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+html {
+    font-size: 16px; /* responsive font reset */
+}
+body {
+    background: #EFEFEF url('images/bg-body.png');
+    font-family: sans-serif;
+    color: #888;
+    font-size: 62.5%; /* 1em = 10px */
+}
+a {
+    color: #e86a4d;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+strong {
+    color: #333;
+}
+input, select, textarea {
+    outline: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.screen-reader {
+    position:absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+/** FIX GOOGLE MAP IMAGES **/
+.map img {
+    max-width: none;
+}
+/*::-webkit-input-placeholder {
+    color: #c8c8c8;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+:-moz-placeholder {
+    color: #c8c8c8;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}*/
+
+/*---------------------
+    [ Mobile ]
+----------------------*/
+.mobile {
+    display: none;
+}
+
+/*---------------------
+    [ Media Queries ]
+----------------------*/
+@media only screen and (max-device-width: 1000px) {
+    /** INSERT CODE **/
+}
