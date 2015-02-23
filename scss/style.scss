@@ -1,0 +1,25 @@
+@import "normalize";
+@import "helpers";
+
+@import "bourbon", "neat";
+
+// ----------
+//  VARIABLES
+// ----------
+
+// COLORS
+$color-brand: hotpink;
+$color-secondary: pink;
+
+// FONTS
+$font-header: Georgia, Times, "Times New Roman", serif;
+$font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+// ------------
+//  MAIN STYLES
+// ------------
+
+
+// PRINT STYLES
+@import "print";
