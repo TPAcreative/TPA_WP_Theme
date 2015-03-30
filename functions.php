@@ -14,7 +14,7 @@ add_filter( 'ot_theme_mode', '__return_true' );
 /**
  * Required: include OptionTree.
  */
-include_once( 'option-tree.2.4.2/ot-loader.php' );
+include_once( 'option-tree-master/ot-loader.php' );
 
 
 /*---------------------------------------------------------
