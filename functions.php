@@ -153,22 +153,22 @@ add_action('wp_enqueue_scripts', 'tpa_register_scripts');
 /*---------------------------------------------------------
     [ Register Custom Post Types ]
 ----------------------------------------------------------*/
-// include('includes/custom-post-types.php');
+// include_once('includes/custom-post-types.php');
 
 /*---------------------------------------------------------
     [ Register Custom Meta Boxes ]
 ----------------------------------------------------------*/
-// include('includes/custom-meta-boxes.php');
+// include_once('includes/custom-meta-boxes.php');
 
 /*---------------------------------------------------------
     [ Breadcrumbs ]
 ----------------------------------------------------------*/
-include('includes/breadcrumbs.php');
+include_once('includes/breadcrumbs.php');
 
 /*---------------------------------------------------------
     [ Helper Functions ]
 ----------------------------------------------------------*/
-include('includes/helpers.php');
+include_once('includes/helpers.php');
 
 /*---------------------------------------------------------
     [ Custom Image Sizes ]
@@ -270,8 +270,8 @@ remove_action( 'wp_head', 'wp_generator' ); // Display the XHTML generator that 
 /*---------------------------------------------------------
     [ Widgets ]
 ----------------------------------------------------------*/
-// include('includes/widgets/widget-map.php');
-// include('includes/widgets/widget-portfolio-items.php');
-// include('includes/widgets/widget-posts.php');
-// include('includes/widgets/widget-space.php');
-// include('includes/widgets/widget-twitter.php');
+// include_once('includes/widgets/widget-map.php');
+// include_once('includes/widgets/widget-portfolio-items.php');
+// include_once('includes/widgets/widget-posts.php');
+// include_once('includes/widgets/widget-space.php');
+// include_once('includes/widgets/widget-twitter.php');
