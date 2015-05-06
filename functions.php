@@ -50,20 +50,6 @@ add_action( 'after_setup_theme', 'tpa_setup_theme' );
 function tpa_register_scripts(){
 
     wp_register_script(
-        'easing',
-        get_template_directory_uri().'/js/jquery.easing.min.js',
-        array('jquery'),
-        '',
-        true
-    );
-    wp_register_script(
-        'fitvid',
-        get_template_directory_uri().'/js/jquery.fitvids.min.js',
-        array('jquery'),
-        '',
-        true
-    );
-    wp_register_script(
         'google-maps-api',
         'http://maps.google.com/maps/api/js?sensor=false',
         array('jquery'),
@@ -84,11 +70,9 @@ function tpa_register_scripts(){
         '',
         true
     );
-    wp_enqueue_script('jquery');
-    wp_enqueue_script('easing');
+
     wp_enqueue_script('google-maps-api');
     wp_enqueue_script('gmap');
-    wp_enqueue_script('fitvid');
     wp_enqueue_script('custom-scripts');
 
 }
