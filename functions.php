@@ -268,10 +268,10 @@ remove_action( 'wp_head', 'wp_generator' ); // Display the XHTML generator that 
 
 
 /*---------------------------------------------------------
-    [ Includes ]
+    [ Widgets ]
 ----------------------------------------------------------*/
-include('includes/widget-map.php');
-include('includes/widget-portfolio-items.php');
-include('includes/widget-posts.php');
-include('includes/widget-space.php');
-include('includes/widget-twitter.php');
+// include('includes/widgets/widget-map.php');
+// include('includes/widgets/widget-portfolio-items.php');
+// include('includes/widgets/widget-posts.php');
+// include('includes/widgets/widget-space.php');
+// include('includes/widgets/widget-twitter.php');
