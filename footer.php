@@ -11,7 +11,7 @@
 	</script>
 <![endif]-->
 <!--[if lt IE9]>
-	<script src="<?php bloginfo('template_directory'); ?>/js/respond.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery.respond.min.js"></script>
 <![endif]-->
 
 <!-- GOOGLE ANALYTICS -->
