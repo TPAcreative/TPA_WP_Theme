@@ -8,8 +8,8 @@ This Theme uses [Option Tree](https://github.com/valendesigns/option-tree) to cr
 It has been included as a git Sub Module.
 
 ### To update Option Tree:
-    cd PATH_TO_SUBMODULE/
+    cd option-tree/
     git pull origin master # <-- don't forget master!!
-    cd PATH_TO_PARENT_REPO/
+    cd ../
     git commit -am "Upgrading our Submodules"
     git push origin
