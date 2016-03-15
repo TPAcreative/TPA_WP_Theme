@@ -4,7 +4,7 @@ add_action('widgets_init', create_function('', 'register_widget("Portfolio_Items
 
 class Portfolio_Items_Widget extends WP_Widget {
     function __construct() {
-        parent::WP_Widget('portfolio_items_widget', 'Portfolio Items', array('description'=>'Displays items from the portfolio'));
+        parent::__construct('portfolio_items_widget', 'Portfolio Items', array('description'=>'Displays items from the portfolio'));
     }
     function widget($args, $instance) {
         extract($args, EXTR_SKIP);
@@ -119,7 +119,7 @@ class Portfolio_Items_Widget extends WP_Widget {
                     $category_type_list_slug[] = preg_replace("/[\/ !\']/","-", stripslashes($portfolio_obj->post_name));
                     $category_type_list[] = $portfolio_obj->post_title;
                 }
-                                    
+
                 // Join the array data and store as a string, separated by a space
                 $category_type_list_slug_combined = strtolower(join( " ", $category_type_list_slug ));
                 $category_type_list_combined = join(', ', $category_type_list);
@@ -147,7 +147,7 @@ class Portfolio_Items_Widget extends WP_Widget {
 
         endwhile;
         wp_reset_postdata();
-        
+
         // Close the list and wrapper
         $html .= '</ul>';
         $html .= '</div>';

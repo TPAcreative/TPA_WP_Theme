@@ -4,7 +4,7 @@ add_action('widgets_init', create_function('', 'register_widget("Space_Widget");
 
 class Space_Widget extends WP_Widget {
     function __construct() {
-        parent::WP_Widget('space_widget', 'Space', array('description'=>'Renders a space within the space - either blank or with a line'));
+        parent::__construct('space_widget', 'Space', array('description'=>'Renders a space within the space - either blank or with a line'));
     }
     function widget($args, $instance) {
         extract($args, EXTR_SKIP);

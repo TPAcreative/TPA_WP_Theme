@@ -4,7 +4,7 @@ add_action('widgets_init', create_function('', 'register_widget("Map_Widget");')
 
 class Map_Widget extends WP_Widget {
     function __construct() {
-        parent::WP_Widget('map_widget', 'Map', array('description'=>'Renders a Google Map, plotted with a specified co-ordinate. Optional contact info caption.'));
+        parent::__construct('map_widget', 'Map', array('description'=>'Renders a Google Map, plotted with a specified co-ordinate. Optional contact info caption.'));
     }
     function widget($args, $instance) {
         extract($args, EXTR_SKIP);
@@ -29,7 +29,7 @@ class Map_Widget extends WP_Widget {
 
         foreach ($lines as $i => $line) {
             if(!empty($line)){
-               $new_lines[] = trim($line . ', '); 
+               $new_lines[] = trim($line . ', ');
            }
         }
 
@@ -56,7 +56,7 @@ class Map_Widget extends WP_Widget {
         $zoom = $map_data['zoom'];
         $mapid = $map_data['mapid'];
 
-        
+
         // wp_localize_script( 'render-map', 'map_data', $map_data );
 
         $html = "<script>
@@ -64,7 +64,7 @@ class Map_Widget extends WP_Widget {
                     var latlng = '$latlng',
                         mapid = '$mapid',
                         zoom = $zoom;
-                    if(latlng.length > 0) { 
+                    if(latlng.length > 0) {
                         latlng = latlng.split(',');
                         var latitude = latlng[0],
                             longitude = latlng[1];
@@ -114,8 +114,8 @@ class Map_Widget extends WP_Widget {
             'location_name' => __(''),
             'map_address' => __(''),
             'latlng' => __(''),
-            'markerinfo' => __(''), 
-            'zoom' => __(17), 
+            'markerinfo' => __(''),
+            'zoom' => __(17),
             'height' => __(230),
         );
         $instance = wp_parse_args((array) $instance, $defaults);

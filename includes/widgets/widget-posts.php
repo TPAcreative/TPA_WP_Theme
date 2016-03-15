@@ -4,7 +4,7 @@ add_action('widgets_init', create_function('', 'register_widget("Posts_Widget");
 
 class Posts_Widget extends WP_Widget {
     function __construct() {
-        parent::WP_Widget('posts_widget', 'Posts', array('description'=>'Displays the most recent posts'));
+        parent::__construct('posts_widget', 'Posts', array('description'=>'Displays the most recent posts'));
     }
     function widget($args, $instance) {
         extract($args, EXTR_SKIP);
@@ -52,7 +52,7 @@ class Posts_Widget extends WP_Widget {
             $i++;
 
         endwhile;
-            
+
         $html .= '</ul>';
         $html .= '</div><!-- end .slides-wrapper -->';
 

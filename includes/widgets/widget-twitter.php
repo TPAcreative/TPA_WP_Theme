@@ -4,7 +4,7 @@ add_action('widgets_init', create_function('', 'register_widget("Twitter");'));
 
 class Twitter extends WP_Widget {
     function __construct() {
-        parent::WP_Widget('twitter_widget', 'Twitter', array('description'=>'Displays a list of Tweets'));
+        parent::__construct('twitter_widget', 'Twitter', array('description'=>'Displays a list of Tweets'));
     }
     function widget($args, $instance) {
         extract($args, EXTR_SKIP);
@@ -89,8 +89,8 @@ class Twitter extends WP_Widget {
 
                 $text = $tweet['text'];
 
-                // Replace Retweet User with an anchor tag  
-                        
+                // Replace Retweet User with an anchor tag
+
                 if(!empty($tweet['retweeted_status'])){
                     $retweet  = $tweet['retweeted_status'];
                     $screen_name = $retweet['user']['screen_name'];
