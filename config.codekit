@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18493",
+"creatorBuild": "19033",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -79,6 +79,78 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/breadcrumbs.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/breadcrumbs.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/clean-up.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/clean-up.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/custom-image-sizes.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/custom-image-sizes.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/custom-meta-boxes.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/custom-meta-boxes.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/custom-post-types.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/custom-post-types.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/fixes\/child-nav.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/fixes\/child-nav.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/helpers.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/helpers.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/includes\/widgets\/tpa-widgets.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/includes\/widgets\/tpa-widgets.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -214,322 +286,11 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/option-tree.2.4.2\/assets\/css\/ot-admin-rtl.css": {
+	"\/option-tree\/assets\/css\/ot-admin-rtl.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/css\/ot-admin-rtl.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/assets\/css\/ot-admin.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/css\/ot-admin.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/layout\/dual-sidebar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3974,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/dual-sidebar.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/dual-sidebar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/layout\/full-width.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3982,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/full-width.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/full-width.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/layout\/left-dual-sidebar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3923,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/left-dual-sidebar.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/left-dual-sidebar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/layout\/left-sidebar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3995,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/left-sidebar.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/left-sidebar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/layout\/right-dual-sidebar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3948,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/right-dual-sidebar.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/right-dual-sidebar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/layout\/right-sidebar.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3992,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/right-sidebar.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/layout\/right-sidebar.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/ot-select-hover-rtl.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1043,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select-hover-rtl.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select-hover-rtl.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/ot-select-hover.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1044,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select-hover.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select-hover.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/ot-select-rtl.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1047,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select-rtl.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select-rtl.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/images\/ot-select.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1052,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select.png",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/images\/ot-select.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree.2.4.2\/assets\/js\/ot-admin.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/ot-admin.js",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/min\/ot-admin-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/ace.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/ace.js",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/min\/ace-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/mode-css.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/mode-css.js",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/min\/mode-css-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/theme-chrome.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/theme-chrome.js",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/min\/theme-chrome-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/worker-css.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/worker-css.js",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/ace\/min\/worker-css-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/option-tree.2.4.2\/assets\/js\/vendor\/jquery\/jquery-ui-timepicker.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/jquery\/jquery-ui-timepicker.js",
-		"outputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/js\/vendor\/jquery\/min\/jquery-ui-timepicker-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/option-tree.2.4.2\/assets\/theme-mode\/demo-functions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/theme-mode\/demo-functions.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/assets\/theme-mode\/demo-meta-boxes.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/theme-mode\/demo-meta-boxes.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/assets\/theme-mode\/demo-theme-options.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/assets\/theme-mode\/demo-theme-options.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-functions-admin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-functions-admin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-functions-compat.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-functions-compat.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-functions-deprecated.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-functions-deprecated.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-functions-docs-page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-functions-docs-page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-functions-option-types.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-functions-option-types.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-functions-settings-page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-functions-settings-page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-functions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-functions.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-meta-box-api.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-meta-box-api.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-post-formats-api.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-post-formats-api.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/includes\/ot-settings-api.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/includes\/ot-settings-api.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree.2.4.2\/ot-loader.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree.2.4.2\/ot-loader.php",
+		"inputAbbreviatedPath": "\/option-tree\/assets\/css\/ot-admin-rtl.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -542,127 +303,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2060,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_bg.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_hex.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 348,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hex.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hex.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_hsb_b.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 459,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hsb_b.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hsb_b.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_hsb_h.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 417,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hsb_h.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hsb_h.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_hsb_s.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 481,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hsb_s.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_hsb_s.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_indicator.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 192,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_indicator.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_indicator.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_overlay.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10355,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_overlay.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_overlay.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_rgb_b.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 458,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_rgb_b.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_rgb_b.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_rgb_g.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 492,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_rgb_g.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_rgb_g.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_rgb_r.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 473,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_rgb_r.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_rgb_r.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/colorpicker\/color_wheel.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 892,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_wheel.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/colorpicker\/color_wheel.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/option-tree\/assets\/images\/layout\/dual-sidebar.png": {
 		"fileType": 32768,
@@ -730,57 +370,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/option-tree\/assets\/images\/ot-dots.png": {
+	"\/option-tree\/assets\/images\/ot-select-hover-rtl.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 943,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-dots.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-dots.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/ot-logo-mini.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1311,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-logo-mini.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-logo-mini.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/ot-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1822,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-logo.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/ot-menu-bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 931,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-menu-bg.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-menu-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/ot-menu-top-bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 940,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-menu-top-bg.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-menu-top-bg.png",
+		"initialSize": 1043,
+		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-select-hover-rtl.png",
+		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-select-hover-rtl.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -796,6 +392,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/option-tree\/assets\/images\/ot-select-rtl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1047,
+		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-select-rtl.png",
+		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-select-rtl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/option-tree\/assets\/images\/ot-select.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -803,39 +410,6 @@
 		"initialSize": 1080,
 		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-select.png",
 		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-select.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/ot-sub-header-bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 923,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-sub-header-bg.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-sub-header-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/ot-ui-light-sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1325,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-ui-light-sprite.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-ui-light-sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/assets\/images\/ot-ui-sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1289,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-ui-sprite.png",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/images\/ot-ui-sprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -851,16 +425,36 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/option-tree\/assets\/js\/ot-colorpicker.js": {
+	"\/option-tree\/assets\/js\/ot-postformats.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/option-tree\/assets\/js\/ot-colorpicker.js",
-		"outputAbbreviatedPath": "\/option-tree\/assets\/js\/min\/ot-colorpicker-min.js",
+		"inputAbbreviatedPath": "\/option-tree\/assets\/js\/ot-postformats.js",
+		"outputAbbreviatedPath": "\/option-tree\/assets\/js\/min\/ot-postformats-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/option-tree\/assets\/js\/vendor\/jquery\/jquery-ui-timepicker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/option-tree\/assets\/js\/vendor\/jquery\/jquery-ui-timepicker.js",
+		"outputAbbreviatedPath": "\/option-tree\/assets\/js\/vendor\/jquery\/min\/jquery-ui-timepicker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/option-tree\/assets\/theme-mode\/demo-functions.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/option-tree\/assets\/theme-mode\/demo-functions.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/option-tree\/assets\/theme-mode\/demo-meta-boxes.php": {
 		"fileType": 8192,
@@ -876,6 +470,26 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/option-tree\/assets\/theme-mode\/demo-theme-options.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/option-tree\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/option-tree\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/option-tree\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/option-tree\/includes\/ot-cleanup-api.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/option-tree\/includes\/ot-cleanup-api.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -952,6 +566,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/option-tree\/includes\/ot-post-formats-api.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/option-tree\/includes\/ot-post-formats-api.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/option-tree\/includes\/ot-settings-api.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -970,39 +593,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/option-tree\/screenshot-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 145725,
-		"inputAbbreviatedPath": "\/option-tree\/screenshot-1.png",
-		"outputAbbreviatedPath": "\/option-tree\/screenshot-1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/screenshot-2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 156172,
-		"inputAbbreviatedPath": "\/option-tree\/screenshot-2.png",
-		"outputAbbreviatedPath": "\/option-tree\/screenshot-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/option-tree\/screenshot-3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 146127,
-		"inputAbbreviatedPath": "\/option-tree\/screenshot-3.png",
-		"outputAbbreviatedPath": "\/option-tree\/screenshot-3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/page.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1011,6 +601,27 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/screenshot.png": {
 		"fileType": 32768,
@@ -1406,6 +1017,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -1492,6 +1107,10 @@
 			},
 		"noarg": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -1592,6 +1211,10 @@
 			},
 		"unused": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -1717,6 +1340,14 @@
 			"flagValue": -1
 			}
 		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
 	"kitAutoOutputPathEnabled": 1,
 	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
@@ -1744,9 +1375,18 @@
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
 	"markdownEnableFootnotes": 0,
-	"markdownEnableSmartyPants": 1,
-	"markdownExpandTabs": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
 	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
@@ -1802,6 +1442,10 @@
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1882,6 +1526,10 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
 			"active": 0,
 			"flagValue": -1
 			},
